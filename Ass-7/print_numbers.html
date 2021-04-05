@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>
+            Good morning everyone
+        </p>
+        <button onclick="myFunction()">click me</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction(){
+                var text="";
+                var i;
+                for(i=0;i<=6;i++){
+                    text +=" " + i + "<br>";
+                }
+                document.getElementById("demo").innerHTML=text;
+            }
+        </script>
+    </body>
+</html>
